@@ -5,7 +5,7 @@ desc = "New website template"
 
 [config]
 scss = ["base.scss"]
-blog_path = "blog/{{{info.category}}}"
+blog_path = "blog/{{{info.author}}}"
 
 [globals]
 profile-link-1 = "https://website.com/username"
