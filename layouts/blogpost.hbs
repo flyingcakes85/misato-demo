@@ -14,12 +14,15 @@
 
     <i>{{info.subtitle}}</i>
 
+    {{#if info.author}}
+    By - {{info.author}}
+    {{/if}}
+
     <div class="blogpost">
 
         {{> markdown_data}}
-    {{#if info.author}}
-        By - {{info.author}}
-    {{/if}}
+
+
     </div>
 </body>
 
