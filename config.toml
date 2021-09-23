@@ -1,0 +1,12 @@
+[site]
+name = "New Website"
+author = "Snehit Sah"
+desc = "New website template"
+
+[config]
+scss = ["base.scss"]
+blog_path = "blog/{{{info.category}}}"
+
+[globals]
+profile-link-1 = "https://website.com/username"
+

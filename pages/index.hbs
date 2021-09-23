@@ -1,0 +1,12 @@
+{{#* inline "index"}}
+
+{{#each posts}}
+<div class="blog-listing">
+  <h1 class="blog-title"><a href="{{this.data.rel_path}}">{{this.info.title}}</a></h1>
+  <p class="blog-summary">
+    {{this.info.subtitle}}
+  </p>
+</div>
+{{/each}}
+{{/inline}}
+{{> home_layout}}
