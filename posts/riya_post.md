@@ -1,0 +1,13 @@
++++
+[info]
+title = "BOOK"
+subtitle = "A book is a medium for recording information in the form of writing"
+author = "Riya Bisht"
+category = "fluff"
+
+[data]
+layout = "blogpost_layout"
+
++++
+
+A book is a medium for recording information in the form of writing or images, typically composed of many pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover. The technical term for this physical arrangement is codex (plural, codices). 
